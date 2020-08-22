@@ -70,7 +70,7 @@
   }
 
   .btn:hover {
-    background-color: orange;
+    background-color: hsl(39, 100%, 50%);
     transition: background-color 1s;
   }
 
@@ -125,7 +125,7 @@
   }
 
   #request-coupon input[type="submit"]:hover {
-    background-color: orange;
+    background-color: hsl(39, 100%, 50%);
     transition: background-color 1s;
   }
     
