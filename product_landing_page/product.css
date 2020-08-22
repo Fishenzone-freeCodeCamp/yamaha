@@ -1,0 +1,152 @@
+ body {
+    font-family: sans-serif;
+    background-color: #eee;
+  }
+
+ a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+  }
+
+  nav {
+    font-weight: 700;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer {
+    background-color: #ddd;
+    padding: 15px;
+    max-width: 1000px;
+    margin: 25px auto 0 auto;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  .btn {
+    padding: 0 10px;
+    height: 30px;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+
+  .btn:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+  .div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: calc(100% / 3);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;  
+  }
+
+  .div > h2 {
+    background-color: #ddd;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  #request-coupon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 110px;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #header-img {
+    max-width: 60px;
+  }
+
+  #request-coupon input[type="submit"] {
+    font-weight: 900;
+    width: 100%;
+    max-width: 145px;
+    height: 28px;
+    border: 0;
+    background-color: #f1c40f;
+  }
+
+  #request-coupon input[type="submit"]:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+    
+  #learn-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #learn-more > h1 {
+    padding-top: 65px;
+  }
+  
+  #learn-more > iframe {
+    max-width: 666px;
+    width: 100%;
+  }
+
+  #buy-at-online-store {
+    max-width: 1000px;
+    margin: 0 auto;
+   }
+
+  
